@@ -1,7 +1,7 @@
 MAIN ?= main
 
-all: $(DEPS)
-	@TEXINPUTS="sty:" bin/latexrun $(BTEX) $(MAIN)
+all:
+	@TEXINPUTS="sty:" bin/latexrun $(MAIN)
 
 spell:
 	@for i in *.tex; do bin/aspell.sh $$i; done
