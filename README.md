@@ -1,4 +1,4 @@
 # Curriculum Vitae (CV)
 This is a simple CV template in LaTeX.
 
-See [DEMO](cv.pdf)
+See the [compiled version (DEMO)](https://0xdkay.me/pub/cv.pdf)
