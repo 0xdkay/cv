@@ -1,9 +1,9 @@
 % Name, phone, email, address
 {\bf\huge Dongkwan Kim} \vspace{1em}\\
 \noindent\begin{tabular}[t]{@{}l}
-  Ph.D Candidate \\
-  School of Electrical Engineering \\
-  Korea Advanced Institute of Science and Technology (KAIST)
+  Postdoctoral Fellow, SSLab\\
+  School of Cybersecurity and Privacy \\
+  Georgia Institute of Technology
 \end{tabular}
 \hfill
 \begin{tabular}[t]{r@{}}
@@ -16,57 +16,117 @@ Homepage: \url{https://0xdkay.me} \\
 % Summary
 % ========================================
 \sectiontitle{Summary}
-I am a Ph.D candidate at the School of Electrical Engineering, KAIST.
-%
-My research goal is to secure the IoT ecosystem.
-%
-To achieve this,
-I have been studying on
-systematizing vulnerability analysis of IoT devices.
-%
-As a case study, I have analyzed
-(1) smart home systems (\eg, wired/wireless routers, IP cameras, smart TVs),
-(2) mobile systems (\eg, Android applications, baseband software, wearable devices),
-(3) cellular infrastructures (\eg, specifications, charging policy, VoLTE, femtocells),
-(4) smart infrastructure (\eg, automobiles, commercial drones), and
-(5) blockchain systems (\eg, Bitcoin, Ethereum, EOS).
-%
-To expand my knowledge base,
-I have participated in several hacking contests worldwide:
-(1) U.S. (\eg, DEFCON, Plaid CTF),
-(2) South Korea (\eg, Codegate, Whitehat Contest, and HDCON), and
-(3) China (\eg, 0CTF).
-%
-Besides, I have been helping KAIST Computer Emergency Response Team (CERT)
-in analyzing real-time/postmortem intrusion cases from 2010.
+
+I am a security engineer and researcher with a strong interest in uncovering inter-domain security threats in emerging technologies, including AI safety/security, IoT systems, mobile/cellular networks, and cyber-physical systems. Beyond device-level vulnerabilities, I am eager to explore how security issues affect business operations and user privacy through service architectures, business logic, profit models, and data privacy for both customers and companies. My goal is to engage deeply in security engineering, devising practical solutions to mitigate risks effectively.
+
+With the rising significance of AI, my current focus areas include:
+
+\begin {itemize}
+\item Leveraging AI for Security:
+  As a Postdoctoral Fellow at Georgia Tech, I am participating in the final round of DARPA's AIxCC competition, where I develop AI agents that autonomously analyze source code, identify vulnerabilities, and generate exploits.
+
+\item Securing AI-integrated Systems:
+  As a specially contracted employee at Samsung Security Center, I worked on securing enterprise AI-driven infrastructures and on-device AI implementations.
+\end {itemize}
+
+I believe teamwork is essential to addressing security challenges. I thrive in cross-functional environments, sharing insights and working closely with diverse teams to strengthen security postures. At Samsung (2022–-2024), I collaborated with cross-functional teams to address security threats --- ranging from device-level vulnerabilities, such as Android application and IoT devices, to broader risks in customer and enterprise service architectures, including abuse scenarios and trusted third-party issues. With strong communication skills, I have won multiple awards in hacking contests, qualified for the DEFCON finals five times, and led the KAIST hacking team in organizing CTFs such as Samsung CTF ’17 and ’18.
+
+As a security researcher (2014–-2022), I earned my Ph.D. in Electrical Engineering from KAIST, under the advisement of Yongdae Kim.
+My research has:
+
+\begin {itemize}
+\item Uncovered new threats in emerging technologies, including IoT devices, drones, cellular networks, and blockchain.
+\item Challenged long-standing security assumptions in cellular networks and binary code similarity analysis.
+\item Sharpened hands-on engineering skills in firmware emulation and analysis, as well as smartphone baseband firmware analysis.
+\end {itemize}
+
+My work has resulted in nine publications in top-tier venues (USENIX Security, CCS, NDSS, TSE, TMC), seven registered patents, 17 industrial and governmental projects, and multiple invited talks at leading security conferences, reflecting my dedication to advancing security research and engineering.
+
+
+% I am a passionate, self-motivated security researcher.
+% %at the School of Electrical Engineering, KAIST.
+% My goal is to secure the Internet of Things (IoT) ecosystem.
+% %To achieve this, I am actively studying on
+% %systematizing the vulnerability analysis process of IoT devices.
+% %
+% To achieve this, I have experienced
+% (1) smart home systems (\eg, wired/wireless routers, IP cameras, smart TVs),
+% (2) mobile systems (\eg, Android apps, baseband software, wearables),
+% (3) cellular infrastructures (\eg, specifications, charging policy, VoLTE, femtocells),
+% (4) smart infrastructures (\eg, automobiles, drones), and
+% (5) blockchain systems (\eg, Bitcoin, Ethereum, EOS).
+% %
+% To broaden my horizons,
+% I competed in various hacking contests:
+% (1) U.S. (\eg, DEFCON, Plaid CTF),
+% (2) South Korea (\eg, Codegate, Whitehat Contest, HDCON), and
+% (3) China (\eg, 0CTF).
+% %
+% Additionally, I have co-operated with the KAIST CERT team
+% on investigating intrusion cases for over ten years.
 
 % ========================================
 % Research Interest
 % ========================================
-\sectiontitle{Research Interest}
-\begin{timeitemize}{Fundamental binary analysis}{}
-    \item Systematizing bug discovery with binary code similarity analysis
-    \item Applying natural language processing to assembly languages
+% \sectiontitle{Research Interest}
+% I am interested in systematizing and automating vulnerability discovery of IoT devices
+% using ML-assisted strategies, especially in:
+
+% \begin{timeitemize}{Fundamental binary analysis}{}
+%     \item Discover bugs with binary code similarity
+%     \item Applying NLP to assembly languages
+% \end{timeitemize}
+% \begin{timeitemize}{Cellular network as a target}{}
+%     \item Analyzing security violations in specifications and actual implementations
+%     \item Discovering inconsistencies between specifications and actual implementations
+%     \item Investigating privacy-leaking side channels
+% \end{timeitemize}
+% \begin{timeitemize}{Cyber-physical system as a target}{}
+%     \item Discovering security (or safety) violations under adversarial environments
+%     \item Building an end-to-end fuzzer for sensing and actuation logic
+% \end{timeitemize}
+
+\clearpage
+% ========================================
+% Work Experience
+% ========================================
+\sectiontitle{Work Experience}
+\begin{timeitemize}[Postdoctoral Fellow, Atlanta, GA]{Georgia Tech}{Feb. 2025 -- Present}
+    \item Participating in AIxCC run by DARPA, a competition that leverages AI to find vulnerabilities and patch them fully automatically.
+    \item Manager: Prof. Taesoo Kim
 \end{timeitemize}
-\begin{timeitemize}{Cellular network as a target}{}
-    \item Analyzing security violations in specifications and actual implementations
-    \item Discovering inconsistencies between specifications and actual implementations
-    \item Investigating privacy-leaking side channels
+
+\begin{timeitemize}[Senior Engineer, South Korea]{Samsung Security Center, Samsung SDS}{Aug. 2022 -- Dec. 2024}
+    \item Worked at the Samsung Security Center, carrying out Red Team efforts to proactively prevent security threats to products and services of all Samsung affiliates: Integrated AI service systems, IoT/embedded devices, Android applications, kernel-level mitigations, and many more under NDA.
+    % \item Manager: Classified
 \end{timeitemize}
-\begin{timeitemize}{Cyber-physical system as a target}{}
-    \item Discovering security (or safety) violations under adversarial environments
-    \item Building an end-to-end fuzzer for sensing and actuation logic
+
+\begin{timeitemize}[Postdoctoral Researcher, South Korea]{KAIST}{Mar. 2022 -- Jul. 2022}
+    \item Continued my collaboration research on 1) sensor spoofing and EMI injection against drones, 2) finding logic bugs in smartphone baseband software
+    \item Manager: Prof. Yongdae Kim
 \end{timeitemize}
+
+\begin{timeitemize}[Research Intern, South Korea]{Pinion Industries}{Dec. 2013 -- Feb. 2014}
+    \item An automotive software and security start-up. I analyzed various components in a car including network systems, AVN, telematics, smartkey, and ECUs.
+    % \item Manager: Kichang Yang (Head of Hyundai Motors Group Security Center as of Mar. 2025)
+    % \item CEO: Woongjun Jang (VP at Hyundai Motor Company as of Jan. 2021)
+\end{timeitemize}
+
+\begin{timeitemize}[Student Senior, South Korea]{KAIST CERT}{Sep. 2010 -- Aug. 2012}
+    % \item Periodic pen-testing on servers under the KAIST domain ($\ast$.kaist.ac.kr)
+    \item Investigated security incidents. In one case, successfully identified the culprit leading to their apprehension by the police.
+\end{timeitemize}
+
 
 % ========================================
 % Education
 % ========================================
 \sectiontitle{Education}
 \begin{timeitemize}[South Korea]{Korea Advanced Institute of Science and Technology (KAIST)}{}
-    \timeitem{Ph.D. in School of Electrical Engineering}{(expected) Mar. 2016 -- Feb. 2022}
+    \timeitem{Ph.D. in School of Electrical Engineering}{Mar. 2016 -- Feb. 2022}
     \subitem{Thesis Title:
-        \textit{Improving Large-Scale Vulnerability Analysis of IoT Devices with
-    Heuristics and Binary Code Similarity}}
+        Improving Large-Scale Vulnerability Analysis of IoT Devices with
+    Heuristics and Binary Code Similarity}
     \subitem{Advisor: Prof. Yongdae Kim}
 
     \timeitem{M.S. in School of Electrical Engineering}{Mar. 2014 -- Feb. 2016}
@@ -83,26 +143,12 @@ in analyzing real-time/postmortem intrusion cases from 2010.
     \subitem{Advisor: Prof. Aur\'elien Francillon}
 \end{timeitemize}
 
-\clearpage
-% ========================================
-% Work Experience
-% ========================================
-\sectiontitle{Work Experience}
-\begin{timeitemize}[Research Intern, South Korea]{Pinion Industries}{Dec. 2013 -- Feb. 2014}
-    \item Analyzed CAN, infotainment systems, telematics, smartkey, and ECUs of automobiles
-    \item CEO: Woongjun Jang (VP at Hyundai Motor Company as of Jan. 2021)
-\end{timeitemize}
-
-\begin{timeitemize}[Consultant, South Korea]{KAIST Computer Emergency Response Team}{Sep. 2010 -- Aug. 2012}
-    \item Conducted periodic penetration testing on servers under the KAIST domain ($\ast$.kaist.ac.kr)
-    \item Performed real-time/postmortem analysis of intrusion cases on the servers
-\end{timeitemize}
 
 % ========================================
 % Honors & Awards
 % ========================================
 \sectiontitle{Honors \& Awards}
-\begin{timeitemize}{Hacking (\ie, Capture-the-flag, CTF) contests}{}
+\begin{timeitemize}{Hacking Contests (\ie, Capture-the-flag, CTF)}{}
     \timeitem{Finalist, DEFCON 27 CTF}{(Team KaisHack GoN) Aug. 2019}
     \timeitem{Finalist, DEFCON 26 CTF}{(Team KaisHack+PLUS+GoN) Aug. 2018}
     \timeitem{1st place (\$20,000), HDCON CTF}{(Team maxlen) Nov. 2017}
@@ -117,18 +163,21 @@ in analyzing real-time/postmortem intrusion cases from 2010.
     \timeitem{Silver prize (\$2,000), HDCON CTF}{(Team KAIST GoN) Jul. 2012}
     \timeitem{3rd place (\$5,000), Codegate CTF 2012}{(Team KAIST GoN) Apr. 2012}
     \timeitem{1st place (\$10,000), ISEC CTF}{(Team GoN) Sep. 2011}
-    \timeitem{1st place (\$1,000), PADOCON CTF}{(Team GoN) Jan, 2011}
+    \timeitem{1st place (\$1,000), PADOCON CTF}{(Team GoN) Jan. 2011}
 \end{timeitemize}
 
 \begin{timeitemize}{Academic Awards}{}
-    \timeitem{Best Presentation Award, A3 Security Workshop}{Aug. 2015}
+    \timeitem{Best Paper Award, CISC-W}{Nov. 2020}
+    \subitem{Title: Standard-based User Identifier Mapping Attack Prevention Method for LTE Network}
+
+    \timeitem{Best Presentation Award, A3 Security Workshop}{Feb. 2016}
     \subitem{Title: Breaking and Fixing VoLTE: Exploiting Hidden Data Channels and Mis-implementations}
 
     \timeitem{Best Paper Award, WISA}{Aug. 2015}
     \subitem{Title: BurnFit: Analyzing and Exploiting Wearable Devices}
 \end{timeitemize}
 
-\begin{timeitemize}{Reported Security Vulnerabilties}{}
+\begin{timeitemize}{Reported Security Vulnerabilities}{}
     \timeitem{CVE-2015-6614, Android telephony privilege escalation, Google}{Oct. 2015}
 \end{timeitemize}
 
@@ -141,7 +190,7 @@ in analyzing real-time/postmortem intrusion cases from 2010.
     \timeitem{National Scholarship (Science and Engineering), Korea Student Aid Foundation}{Feb. 2010 -- Feb. 2020}
 \end{timeitemize}
 
-\clearpage
+% \clearpage
 % ========================================
 % Patents
 % ========================================
@@ -152,23 +201,37 @@ in analyzing real-time/postmortem intrusion cases from 2010.
 \end{timeitemize}
 
 \begin{timeitemize}[South Korea]{Domestic Registrations}{}
-    \timeitem{KR 10-1972825-0000}{Apr. 2019}
+    \timeitem{KR 10-2514809}{Mar. 2023}
+    \subitem{VIDEO IDENTIFICATION METHOD IN LTE NETWORKS AND THE SYSTEM THEREOF}
+
+    \timeitem{KR 10-2418212}{Jul. 2022}
+    \subitem{ARCHITECTURE-INDEPENDENT SIMILARITY MEASURING METHOD FOR PROGRAM FUNCTION}
+    
+    \timeitem{KR 10-2415494}{Jun. 2022}
+    \subitem{Emulation based security analysis method for embedded devices}
+
+    \timeitem{KR 10-2333866}{Nov. 2021}
+    \subitem{Method and Apparatus for Checking Problem in Mobile Communication Network}
+
+    \timeitem{KR 10-1972825}{Apr. 2019}
     \subitem{Method and apparatus for automatically analyzing vulnerable point
         of embedded appliance by using hybrid analysis technology, and computer
         program for executing the method}
 
-    \timeitem{KR 10-1868836-0000}{Jun. 2018}
+    \timeitem{KR 10-1868836}{Jun. 2018}
     \subitem{A method to attack commercial drones using the resonance effect of
     gyroscopes by sound waves}
 \end{timeitemize}
 
 \begin{timeitemize}{Applications}{}
-    \timeitem{KR 10-2021-0136352}{Oct. 2021}
+    \timeitem{KR 10-2022-0132964}{Oct. 2022}
+    \subitem{ANTI-DRONE SYSTEM THROUGH COMMUNICATION DISTORTION BETWEEN SENSOR AND CONTROL UNIT AND ITS OPERATION METHOD}
     
+    \timeitem{KR 10-2021-0168382}{Nov. 2021}
+    \subitem{Method and System for Automatically Analyzing Bugs in Cellular Baseband Software using Comparative Analysis based on Cellular Specifications}
+    
+    \timeitem{KR 10-2021-0136352}{Oct. 2021}
     \subitem{METHOD FOR PREVENTING MAPPING OF USER IDENTIFIERS IN MOBILE COMMUNICATION SYSTEM AND THE SYSTEM THEREOF}
-
-    \timeitem{KR 10-2021-0088806}{Jul. 2021}
-    \subitem{VIDEO IDENTIFICATION METHOD IN LTE NETWORKS AND THE SYSTEM THEREOF}
     
     \timeitem{KR 10-2021-0040795}{Mar. 2021}
     \subitem{ANALYSIS SYSTEM FOR DETECTION OF SIP IN VoLTE AND THE METHOD THEREOF}
@@ -197,142 +260,263 @@ in analyzing real-time/postmortem intrusion cases from 2010.
 
     \timeitem{KR 10-2018-0034616}{Mar. 2018}
     \subitem{ARCHITECTURE-INDEPENDENT SIMILARITY MEASURING METHOD FOR PROGRAM FUNCTION}
-
-    \timeitem{KR 10-2017-0002925}{Jan. 2017}
-    \subitem{Method and Apparatus for Checking Problem in Mobile Communication Network}
 \end{timeitemize}
 
-\clearpage
+%\clearpage
 % ========================================
 % Publications
 % ========================================
-\sectiontitle{Publications}
+\sectiontitle{Publications (International)}
 ($\ast$: co-first authors)
+
+9 papers in top-tier conferences and journals (USENIX Security, CCS, NDSS, TSE, TMC)
+
 \begin{enumerate}[leftmargin=1.5em]
+    \item \textbf{BaseComp: A Comparative Analysis for Integrity Protection
+    in Cellular Baseband Software} \\
+        {\small
+            Eunsoo Kim*, Min Woo Baek*, CheolJun Park, \iam{Dongkwan Kim}, Yongdae Kim, and Insu Yun \\
+            Proceedings of the 32nd USENIX Security Symposium (Security'23) \\
+            Acceptance rate: 29.22\% (422 of 1,444)
+        }
+    \hfill {\small Aug. 2023}
+    
+    \item \textbf{Un-Rocking Drones: Foundations of Acoustic
+Injection Attacks and Recovery Thereof} \\
+        {\small
+            Jinseob Jung, \iam{Dongkwan Kim}, Joonha Jang, Juhwan Noh, Changhun Song, and Yongdae Kim \\
+            Proceedings of the 2023 Annual Network and Distributed System Security Symposium (NDSS'23) \\  
+            Acceptance rate: 16.18\% (94 of 581)
+        }
+    \hfill {\small Mar. 2023}
+
+    \item \textbf{Paralyzing Drones via EMI Signal Injection on
+Sensory Communication Channels} \\
+        {\small
+            Junha Jang, ManGi Cho, Jaehoon Kim, \iam{Dongkwan Kim}, and Yongdae Kim \\
+            Proceedings of the 2023 Annual Network and Distributed System Security Symposium (NDSS'23) \\ 
+            Acceptance rate: 16.18\% (94 of 581)
+        }
+    \hfill {\small Mar. 2023}
+
     \item \textbf{Watching the Watchers: Practical Video Identification Attack
-        in LTE Networks} \\
+    in LTE Networks} \\
         {\small
             Sangwook Bae, Mincheol Son, \iam{Dongkwan Kim}, CheolJun Park, Jiho Lee, Sooel Son, and Yongdae Kim \\
             Proceedings of the 31st USENIX Security Symposium (Security'22) \\
-            Aug. 2022
+            Acceptance rate: 18.10\% (256 of 1,414)
         }
+    \hfill {\small Aug. 2022}
+
+    \item \textbf{Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned} \\
+        {\small
+            \iam{Dongkwan Kim}, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim \\
+            IEEE Transactions on Software Engineering
+            (TSE'22)
+        }
+    \hfill {\small Jul. 2022}
+
+    \item \textbf{Improving Large-Scale Vulnerability Analysis of IoT Devices with
+    Heuristics and Binary Code Similarity} \\
+        {\small
+            \iam{Dongkwan Kim} \\
+            Ph.D. Thesis, KAIST
+        }
+    \hfill {\small Daejeon, South Korea, Feb. 2022}
+
 
     \item \textbf{Enabling the Large-Scale Emulation of Internet of Things
         Firmware With Heuristic Workarounds} \\
         {\small
             \iam{Dongkwan Kim}, Eunsoo Kim, Mingeun Kim, Yeongjin Jang, and Yongdae Kim \\
-            IEEE Security \& Privacy \\
-            May 2021
+            IEEE Security \& Privacy
         }
-
-    \item \textbf{Revisiting Binary Code Similarity Analysis using Interpretable Feature Engineering and Lessons Learned} \\
-        {\small
-            \iam{Dongkwan Kim}, Eunsoo Kim, Sang Kil Cha, Sooel Son, and Yongdae Kim \\
-            Under Major Revision to IEEE Transactions on Software Engineering
-            (TSE'21) \\
-            Apr. 2021
-        }
+        \hfill {\small May 2021}
 
     \item \textbf{BaseSpec: Comparative Analysis of Baseband Software and Cellular Specifications for L3 Protocols} \\
         {\small
             \iam{Dongkwan Kim$^\ast$}, Eunsoo Kim$^\ast$, CheolJun Park, Insu Yun, and Yongdae Kim \\
             Proceedings of the 2021 Annual Network and Distributed System Security Symposium (NDSS'21) \\
-            Virtual, Feb. 2021 \\
             Acceptance rate: 15.18\% (87 of 573)
         }
+        \hfill {\small Virtual, Feb. 2021}
 
+    % \clearpage
     \item \textbf{FirmAE: Towards Large-Scale Emulation of IoT Firmware for Dynamic Analysis} \\
         {\small
             Mingeun Kim, \iam{Dongkwan Kim}, Eunsoo Kim, Suryeon Kim, Yeongjin Jang, and Yongdae Kim \\
             Proceedings of the 2020 Annual Computer Security Applications Conference (ACSAC'20)\\
-            Virtual, Dec. 2020 \\
             Acceptance rate: 23.18\% (70 of 302)
         }
+        \hfill {\small Virtual, Dec. 2020}
 
     \item \textbf{Who Spent My EOS? On the (In)Security of Resource Management of EOS.IO} \\
         {\small
             Sangsup Lee, Daejun Kim, \iam{Dongkwan Kim}, Sooel Son, and Yongdae Kim \\
-            Proceedings of the 13th USENIX Workshop on Offensive Technologies (WOOT'19) \\
-            Santa Clara, CA, Aug. 2019
-        }
+            Proceedings of the 13th USENIX Workshop on Offensive Technologies \\ (WOOT'19)
+        } 
+        \hfill {\small Santa Clara, CA, Aug. 2019}
 
     \item \textbf{Peeking over the Cellular Walled Gardens - A Method for Closed Network Diagnosis} \\
         {\small
             Byeongdo Hong, Shinjo Park, Hongil Kim, \iam{Dongkwan Kim}, Hyunwook Hong, Hyunwoo Choi, Jean-Pierre Seifert, Sung-Ju Lee, and Yongdae Kim \\
-            IEEE Transactions on Mobile Computing (TMC'18) \\
-            Feb. 2018
+            IEEE Transactions on Mobile Computing (TMC'18)
         }
+        \hfill {\small Feb. 2018}
 
     \item \textbf{When Cellular Networks Met IPv6: Security Problems of Middleboxes in IPv6 Cellular Networks} \\
         {\small
             Hyunwook Hong, Hyunwoo Choi, \iam{Dongkwan Kim}, Hongil Kim, Byeongdo Hong, Jiseong Noh, and Yongdae Kim \\
             Proceedings of the 2nd IEEE European Symposium on Security and Privacy (EuroS\&P'17)\\
-            Paris, France, Apr. 2017 \\
             Acceptance rate: 19.58\% (38 of 194)
         }
+        \hfill {\small Paris, France, Apr. 2017}
 
+    %\clearpage
     \item \textbf{Pay As You Want: Bypassing Charging System in Operational Cellular Networks} \\
         {\small
-            Hyunwook Hong, Hongil Kim, Byeongdo Hong, \iam{Dongkwan Kim}, Hyunwoo Choi, Eunkyu Lee and Yongdae Kim \\
-            Proceedings of the 17th International Workshop on Information Security Applications (WISA'16)\\
-            Jeju, South Korea, Aug. 2016
+            Hyunwook Hong, Hongil Kim, Byeongdo Hong, \iam{Dongkwan Kim}, Hyunwoo Choi, Eunkyu Lee, and Yongdae Kim \\
+            Proceedings of the 17th International Workshop on Information Security Applications \\ (WISA'16)
         }
+        \hfill {\small Jeju, South Korea, Aug. 2016}
 
     \item \textbf{Dissecting VoLTE: Exploiting Free Data Channels and Security Problems} \\
         {\small
             \iam{Dongkwan Kim} \\
-            M.S. Thesis, KAIST \\
-            Daejeon, South Korea, Feb. 2016
+            M.S. Thesis, KAIST
         }
+        \hfill {\small Daejeon, South Korea, Feb. 2016}
 
     \item \textbf{Breaking and Fixing VoLTE: Exploiting Hidden Data Channels and Mis-implementations} \\
         {\small
             \iam{Dongkwan Kim$^\ast$}, Hongil Kim$^\ast$, Minhee Kwon, Hyungseok Han, Yeongjin Jang, Dongsu Han, Taesoo Kim, and Yongdae Kim \\
             Proceedings of the 22nd ACM Conference on Computer and Communications Security (CCS'15) \\
-            Denver, CO, Oct. 2015 \\
             Acceptance rate: 19.81\% (128 of 646)
         }
+        \hfill {\small Denver, CO, Oct. 2015}
 
     \item \textbf{BurnFit: Analyzing and Exploiting Wearable Devices} \\
         {\small
-            \iam{Dongkwan Kim}, Suwan Park, Kibum Choi, Yongdae Kim \\
+            \iam{Dongkwan Kim}, Suwan Park, Kibum Choi, and Yongdae Kim \\
             Proceedings of the 16th International Workshop on Information Security Applications (WISA'15) \\
-            Jeju, South Korea, Aug. 2015
+            Best Paper Award
         }
+        \hfill {\small Jeju, South Korea, Aug. 2015}
 
     \item \textbf{Rocking Drones with Intentional Sound Noise on Gyroscopic Sensors} \\
         {\small
             Yunmok Son, Hocheol Shin, \iam{Dongkwan Kim}, Youngseok Park, Juhwan Noh, Kibum Choi, Jungwoo Choi, and Yongdae Kim \\
             Proceedings of the 24th USENIX Security Symposium (Security'15) \\
-            Austin, TX, Aug. 2015 \\
             Acceptance rate: 15.73\% (67 of 426)
         }
+        \hfill {\small Austin, TX, Aug. 2015}
 
     \item \textbf{Analyzing Security of Korean USIM-based PKI Certificate Service} \\
         {\small
-            Shinjo Park, Suwan Park, Insu Yun, \iam{Dongkwan Kim}, Yongdae Kim \\
-            Proceedings of the 15th International Workshop on Information Security Applications (WISA'14) \\
-            Jeju, South Korea, Aug. 2014
+            Shinjo Park, Suwan Park, Insu Yun, \iam{Dongkwan Kim}, and Yongdae Kim \\
+            Proceedings of the 15th International Workshop on Information Security Applications \\ (WISA'14)
         }
+        \hfill {\small Jeju, South Korea, Aug. 2014}
 
-    \item \textbf{High-speed automatic segmentation of intravascular stent struts in optical coherence tomography images} \\
+    \item \textbf{High-speed Automatic Segmentation of Intravascular Stent Struts in Optical Coherence Tomography Images} \\
         {\small
-            Proceedings of SPIE Biomedical Optics, Photonics West 2013 (BiOS'13) \\
             Myounghee Han, \iam{Dongkwan Kim}, Wang-Yuhl Oh, and Sukyoung Ryu \\
-            San Francisco, CA, Feb. 2013
+            Proceedings of SPIE Biomedical Optics, Photonics West 2013 (BiOS'13)
         }
+        \hfill {\small San Francisco, CA, Feb. 2013}
 \end{enumerate}
 
-\clearpage
+
+% \clearpage
+% ========================================
+% Domestic Publications
+% ========================================
+\sectiontitle{Publications (Domestic, South Korea)}
+\begin{enumerate}[leftmargin=1.5em]
+    \item \textbf{Video Service Identification Attack in LTE by Monitoring Encrypted Traffic} \\
+        {\small
+            Mincheol Son, Sangwook Bae, \iam{Dongkwan Kim}, Jiho Lee, CheolJun Park, BeomSeok Oh, Sooel Son, and Yongdae Kim \\
+            Proceedings of Symposium of the Korean Institute of Communications and Information Sciences \\ (KCIS'21)
+        }
+        \hfill {\small Virtual, Jun. 2021}
+    
+    \item \textbf{Standard-based User Identifier Mapping Attack Prevention Method for LTE Network} \\
+        {\small
+            CheolJun Park, Sangwook Bae, Jiho Lee, Mincheol Son, \iam{Dongkwan Kim},
+            Sooel Son, and Yongdae Kim \\
+            Conference on Information Security and Cryptography Winter (CISC-W’20) \\
+            Best Paper Award
+        }
+        \hfill {\small South Korea, Nov. 2020}
+
+    \item \textbf{VoLTEFuzz: Framework for Comprehensive Analysis of SIP in VoLTE} \\
+        {\small
+            Seokbin Yun, Sangwook Bae, Mincheol Son, \iam{Dongkwan Kim}, Jiho Lee, CheolJun Park, Yeongbin Hwang, and Yongdae Kim \\
+            Conference on Information Security and Cryptography Winter (CISC-W’20)
+        }
+        \hfill {\small South Korea, Nov. 2020}
+        
+    \item \textbf{Firm-Pot: Large-scale Firmware Honey-Pot for Malware Analysis} \\
+        {\small
+            Minguen Kim, Eunsoo Kim, \iam{Dongkwan Kim}, and Yongdae Kim \\
+            Conference on Information Security and Cryptography Winter (CISC-W’18)
+        }
+        \hfill {\small South Korea, Dec. 2018}
+        
+    \item \textbf{TVT: Typed Virtual Table for Mitigating VTable Hijacking} \\
+        {\small
+            Jeongoh Kyea, Eunsoo Kim, \iam{Dongkwan Kim}, and Yongdae Kim \\
+            Conference on Information Security and Cryptography Winter (CISC-W’17)
+        }
+        \hfill {\small South Korea, Dec. 2017}
+        
+    \item \textbf{Design and Implementation of GPS Spoofer Software} \\
+        {\small
+            Juhwan Noh, \iam{Dongkwan Kim}, and Yongdae Kim \\
+            Conference on Information Security and Cryptography Summer (CISC-S’15)
+        }
+        \hfill {\small South Korea, Jun. 2015}
+        
+    \item \textbf{Security Analysis of USIM-based certificate service in Korea} \\
+        {\small
+            Shinjo Park, Suwan Park, Insu Yun, \iam{Dongkwan Kim}, and Yongdae Kim \\
+            Conference on Information Security and Cryptography Summer (CISC-S’14)
+        }
+        \hfill {\small South Korea, Jun. 2014}
+        
+    \item \textbf{Security Analysis of Femtocells in Korea} \\
+        {\small
+            Eunsoo Kim, \iam{Dongkwan Kim}, Youjin Lee, Shinjo Park, and Yongdae Kim \\
+            Conference on Information Security and Cryptography Summer (CISC-S’14)
+        }
+        \hfill {\small South Korea, Jun. 2014}
+\end{enumerate}
+
+
+% \clearpage
 % ========================================
 % Invited Presentations
 % ========================================
-\sectiontitle{Invited Presentations}
+\sectiontitle{Invited Talks}
+
+\begin{timeitemize}{AI Security Primer: Red Team Perspectives on Navigating New Threats and Safeguarding AI Frontier}{}
+    \timeitem{AI Security Lecture for the SK Telecom Information Security Team}{Seoul, South Korea, Jul. 2024}
+    \timeitem{.HACK Conference by Theori}{Seoul, South Korea, May. 2024}
+\end{timeitemize}
+
+\begin{timeitemize}{Scaling up Vulnerability Analysis of IoT Devices with Heuristics and Binary Code Similarity}{}
+    \timeitem{Technology Exchange Meeting between Samsung Mobile Security Team and Hyundai Motor Company Vehicle Cyber Security Team}{Seoul, South Korea, Jul. 2024}
+    \timeitem{Colloquium at School of Cybersecurity, Korea University}{Seoul, South Korea, Oct. 2023}
+\end{timeitemize}
+
+\begin{timeitemize}{Peeking over Industry's Patch Gap: Case Study of Samsung SmartTV's Web Browser}{}
+    \timeitem{KAIST-Samsung SDS Tech Seminar}{Daejeon, South Korea, Mar. 2023}
+\end{timeitemize}
 
 \begin{timeitemize}{BaseSpec: Comparative Analysis of Baseband Software and
         Cellular Specifications for L3 Protocols}{}
     \timeitem{Annual Network and Distributed System Security Symposium}{Virtual, Feb. 2021}
-    \timeitem{KAIST-CISPA Workshop}{Virtual, Feb. 2021}
+    \timeitem{KAIST-CISPA Workshop}{Seoul, South Korea, Aug. 2019}
 \end{timeitemize}
 
 \subsectiontitle{Breaking and Fixing VoLTE: Exploiting Hidden Data Channels and Mis-implementations}{} \\
@@ -379,11 +563,11 @@ in analyzing real-time/postmortem intrusion cases from 2010.
 
 
 \begin{timeitemize}{External Security Consultant}{}
-    \timeitem{KAIST Computer Emergency Response Team}{Sep. 2012 -- Feb. 2022}
+    \timeitem{KAIST Computer Emergency Response Team}{Sep. 2010 -- Feb. 2022}
 \end{timeitemize}
 
 
-\clearpage
+% \clearpage
 % ========================================
 % Projects
 % ========================================
@@ -414,7 +598,7 @@ in analyzing real-time/postmortem intrusion cases from 2010.
 \end{timeitemize}
 
 \begin{timeitemize}{International Projects}{}
-    \timeitem{$^\ast$Cyber Physical Analysis of System Software Survivability by Stimulating Sensors \\ on Drones}{Jun. 2020 -- May 2021}
+    \timeitem{$^\ast$Cyber Physical Analysis of System Software Survivability by Stimulating Sensors \\ on Drones}{Jun. 2020 -- Feb. 2022}
     \subitem{Air Force Office of Scientific Research (AFOSR), Air Force Research \\
     Laboratory (AFRL)}
 \end{timeitemize}
@@ -450,7 +634,7 @@ in analyzing real-time/postmortem intrusion cases from 2010.
 
 
 
-\clearpage
+% \clearpage
 % ========================================
 % Other Activities
 % ========================================
@@ -458,22 +642,23 @@ in analyzing real-time/postmortem intrusion cases from 2010.
 
 \begin{timeitemize}{}{}
     \vspace{-1.0em}
-    \timeitem{Student Representative of School of Computing, KAIST}{Feb. 2011 -- Dec. 2013}
-\end{timeitemize}
+    % \timeitem{Student Representative of School of Computing, KAIST}{Feb. 2011 -- Dec. 2013}
+% \end{timeitemize}
 
 
 % ========================================
 % Teaching Experience
 % ========================================
-\sectiontitle{Teaching Experience}
+% \sectiontitle{Teaching Experience}
 
-\begin{timeitemize}{}{}
-    \vspace{-1.0em}
+% \begin{timeitemize}{}{}
+    % \vspace{-1.0em}
     \timeitem{Teaching Assistant, Introduction to Electronics Design Lab. (EE305), KAIST}{Fall 2019}
     \timeitem{Teaching Assistant, Discrete Methods for Electrical Engineering (EE213), KAIST}{Spring 2017}
     \timeitem{Teaching Assistant, Network Programming (EE324), KAIST}{Fall 2016}
     \timeitem{Teaching Assistant, Cryptography Engineering (EE817/IS893), KAIST}{Spring 2016}
     \timeitem{Teaching Assistant, Security 101: Think Like an Adversary (EE515/IS523), KAIST}{Fall 2015}
+    \timeitem{Student Representative of School of Computing, KAIST}{Feb. 2011 -- Dec. 2013}
     \timeitem{Head Instructor, Information Security 101 for Freshmen (HSS062), KAIST}{Sep. 2011 -- Feb. 2013}
     \timeitem{Teaching Assistant, Information Security 101 for Freshmen (HSS062), KAIST}{Sep. 2010 -- Aug. 2011}
 \end{timeitemize}
@@ -483,17 +668,24 @@ in analyzing real-time/postmortem intrusion cases from 2010.
 % ========================================
 % List of References
 % ========================================
+\clearpage
 \sectiontitle{List of References}
 
 \begin{timeitemize}{Dr. Yongdae Kim}{}
-    \item Chair Professor, KAIST
+    \item Director, Cyber Security Research Center (CSRC), KAIST
     \item Professor, School of Electrical Engineering and Graduate School of Information Security, KAIST
     \item Email: \email{yongdaek@kaist.ac.kr}
     \item Homepage: \url{https://syssec.kaist.ac.kr/~yongdaek/}
 \end{timeitemize}
 
+\begin{timeitemize}{Dr. Taesoo Kim}{}
+    \item Professor, School of Cybersecurity and Privacy (SCP) and Computer Science (SCS), Georgia Tech
+    \item Email: \email{taesoo@gatech.edu}
+    \item Homepage: \url{https://taesoo.kim/}
+\end{timeitemize}
+
 \begin{timeitemize}{Dr. Sang Kil Cha}{}
-    \item Director, Cyber Sercurity Research Center (CSRC), KAIST
+    \item Director, Cyber Security Research Center (CSRC), KAIST
     \item Associate Professor, School of Computing and Graduate School of Information Security, KAIST
     \item Email: \email{sangkilc@kaist.ac.kr}
     \item Homepage: \url{https://softsec.kaist.ac.kr/~sangkilc/}
@@ -506,20 +698,13 @@ in analyzing real-time/postmortem intrusion cases from 2010.
 \end{timeitemize}
 
 \begin{timeitemize}{Dr. Yeongjin Jang}{}
-    \item Assistant Professor, Computer Science, Oregon State University
-    \item Email: \email{yeongjin.jang@oregonstate.edu}
-    \item Homepage: \url{http://people.oregonstate.edu/~jangye}
+    \item Principal Software Engineer, Samsung Research America
+    \item Email: \email{y.jang1@samsung.com}
+    \item Homepage: \url{https://www.unexploitable.systems/}
 \end{timeitemize}
 
 \begin{timeitemize}{Dr. Insu Yun}{}
-    \item Assistant Professor, School of Electrical Engineering and Graduate School of Information Security, KAIST
+    \item Associate Professor, School of Electrical Engineering, KAIST
     \item Email: \email{insuyun@kaist.ac.kr}
     \item Homepage: \url{https://insuyun.github.io/}
-\end{timeitemize}
-
-\begin{timeitemize}{Dr. Sukyoung Ryu}{}
-    \item Head, School of Computing, KAIST
-    \item Professor, School of Computing, KAIST
-    \item Email: \email{sryu.cs@kaist.ac.kr}
-    \item Homepage: \url{https://plrg.kaist.ac.kr/ryu}
 \end{timeitemize}
