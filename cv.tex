@@ -17,31 +17,16 @@ Homepage: \url{https://0xdkay.me} \\
 % ========================================
 \sectiontitle{Summary}
 
-I am a security engineer and researcher with a strong interest in uncovering inter-domain security threats in emerging technologies, including AI safety/security, IoT systems, mobile/cellular networks, and cyber-physical systems. Beyond device-level vulnerabilities, I am eager to explore how security issues affect business operations and user privacy through service architectures, business logic, profit models, and data privacy for both customers and companies. My goal is to engage deeply in security engineering, devising practical solutions to mitigate risks effectively.
-
-With the rising significance of AI, my current focus areas include:
-
-\begin {itemize}
-\item Leveraging AI for Security:
-  As a Postdoctoral Fellow at Georgia Tech, I am participating in the final round of DARPA's AIxCC competition, where I develop AI agents that autonomously analyze source code, identify vulnerabilities, and generate exploits.
-
-\item Securing AI-integrated Systems:
-  As a specially contracted employee at Samsung Security Center, I worked on securing enterprise AI-driven infrastructures and on-device AI implementations.
-\end {itemize}
-
-I believe teamwork is essential to addressing security challenges. I thrive in cross-functional environments, sharing insights and working closely with diverse teams to strengthen security postures. At Samsung (2022–-2024), I collaborated with cross-functional teams to address security threats --- ranging from device-level vulnerabilities, such as Android application and IoT devices, to broader risks in customer and enterprise service architectures, including abuse scenarios and trusted third-party issues. With strong communication skills, I have won multiple awards in hacking contests, qualified for the DEFCON finals five times, and led the KAIST hacking team in organizing CTFs such as Samsung CTF ’17 and ’18.
-
-As a security researcher (2014–-2022), I earned my Ph.D. in Electrical Engineering from KAIST, under the advisement of Yongdae Kim.
-My research has:
-
-\begin {itemize}
-\item Uncovered new threats in emerging technologies, including IoT devices, drones, cellular networks, and blockchain.
-\item Challenged long-standing security assumptions in cellular networks and binary code similarity analysis.
-\item Sharpened hands-on engineering skills in firmware emulation and analysis, as well as smartphone baseband firmware analysis.
-\end {itemize}
-
-My work has resulted in nine publications in top-tier venues (USENIX Security, CCS, NDSS, TSE, TMC), seven registered patents, 17 industrial and governmental projects, and multiple invited talks at leading security conferences, reflecting my dedication to advancing security research and engineering.
-
+I am a security engineer and researcher specializing in uncovering novel,
+cross-domain security threats across AI, IoT, cellular networks, and cyber-physical systems.
+I have a proven track record of identifying and developing practical security solutions at scale,
+from AI-based automated vulnerability discovery to securing enterprise-level AI infrastructures.
+As a DARPA AIxCC finalist, I demonstrated expertise in
+building LLM-powered exploit generation agents and advancing autonomous security analysis.
+At Samsung SDS, I drove Red Team operations to proactively mitigate threats against global products and services.
+Recognized through 5x DEFCON finals, 9 top-tier publications (USENIX Security, CCS, NDSS, TSE, TMC),
+7 patents, and 17+ industry/government projects.
+Passionate about bridging cutting-edge research with real-world impact to secure large-scale systems and services.
 
 % I am a passionate, self-motivated security researcher.
 % %at the School of Electrical Engineering, KAIST.
@@ -86,35 +71,35 @@ My work has resulted in nine publications in top-tier venues (USENIX Security, C
 %     \item Building an end-to-end fuzzer for sensing and actuation logic
 % \end{timeitemize}
 
-\clearpage
+% \clearpage
 % ========================================
 % Work Experience
 % ========================================
 \sectiontitle{Work Experience}
 \begin{timeitemize}[Postdoctoral Fellow, Atlanta, GA]{Georgia Tech}{Feb. 2025 -- Present}
-    \item Participating in AIxCC run by DARPA, a competition that leverages AI to find vulnerabilities and patch them fully automatically.
+    \item Led design and implementation of LLM-powered exploit generation and fuzzing agents, significantly improving team productivity and analysis throughput through robust automation and tooling.
     \item Manager: Prof. Taesoo Kim
 \end{timeitemize}
 
 \begin{timeitemize}[Senior Engineer, South Korea]{Samsung Security Center, Samsung SDS}{Aug. 2022 -- Dec. 2024}
-    \item Worked at the Samsung Security Center, carrying out Red Team efforts to proactively prevent security threats to products and services of all Samsung affiliates: Integrated AI service systems, IoT/embedded devices, Android applications, kernel-level mitigations, and many more under NDA.
+    \item Drove Red Team efforts to proactively identify and mitigate security threats across all Samsung affiliates' products and services, including AI-integrated systems, IoT/embedded devices, Android applications, and kernel-level mitigations.
     % \item Manager: Classified
 \end{timeitemize}
 
 \begin{timeitemize}[Postdoctoral Researcher, South Korea]{KAIST}{Mar. 2022 -- Jul. 2022}
-    \item Continued my collaboration research on 1) sensor spoofing and EMI injection against drones, 2) finding logic bugs in smartphone baseband software
+    \item Conducted advanced research on smartphone baseband authentication bypass, acoustic and EMI signal injection attacks against drone sensors, and recovery techniques for spoofed signals.
     \item Manager: Prof. Yongdae Kim
 \end{timeitemize}
 
 \begin{timeitemize}[Research Intern, South Korea]{Pinion Industries}{Dec. 2013 -- Feb. 2014}
-    \item An automotive software and security start-up. I analyzed various components in a car including network systems, AVN, telematics, smartkey, and ECUs.
+    \item An automotive software and security startup. I analyzed and exploited in-vehicle components (network systems, AVN, telematics, smart keys, ECUs), including achieving remote code execution on AVN systems and investigating smart key cloning for potential theft scenarios.
     % \item Manager: Kichang Yang (Head of Hyundai Motors Group Security Center as of Mar. 2025)
     % \item CEO: Woongjun Jang (VP at Hyundai Motor Company as of Jan. 2021)
 \end{timeitemize}
 
 \begin{timeitemize}[Student Senior, South Korea]{KAIST CERT}{Sep. 2010 -- Aug. 2012}
     % \item Periodic pen-testing on servers under the KAIST domain ($\ast$.kaist.ac.kr)
-    \item Investigated security incidents. In one case, successfully identified the culprit leading to their apprehension by the police.
+    \item Investigated and analyzed security incidents, including identifying and attributing an attack that led to the apprehension of the perpetrator by law enforcement.
 \end{timeitemize}
 
 
@@ -262,7 +247,7 @@ My work has resulted in nine publications in top-tier venues (USENIX Security, C
     \subitem{ARCHITECTURE-INDEPENDENT SIMILARITY MEASURING METHOD FOR PROGRAM FUNCTION}
 \end{timeitemize}
 
-%\clearpage
+\clearpage
 % ========================================
 % Publications
 % ========================================
@@ -341,7 +326,7 @@ Sensory Communication Channels} \\
         }
         \hfill {\small Virtual, Feb. 2021}
 
-    % \clearpage
+    \clearpage
     \item \textbf{FirmAE: Towards Large-Scale Emulation of IoT Firmware for Dynamic Analysis} \\
         {\small
             Mingeun Kim, \iam{Dongkwan Kim}, Eunsoo Kim, Suryeon Kim, Yeongjin Jang, and Yongdae Kim \\
@@ -493,13 +478,14 @@ Sensory Communication Channels} \\
 \end{enumerate}
 
 
-% \clearpage
+\clearpage
 % ========================================
 % Invited Presentations
 % ========================================
 \sectiontitle{Invited Talks}
 
 \begin{timeitemize}{AI Security Primer: Red Team Perspectives on Navigating New Threats and Safeguarding AI Frontier}{}
+    \timeitem{Hyundai Motors Group Security Center}{Seoul, South Korea, Jan. 2025}
     \timeitem{AI Security Lecture for the SK Telecom Information Security Team}{Seoul, South Korea, Jul. 2024}
     \timeitem{.HACK Conference by Theori}{Seoul, South Korea, May. 2024}
 \end{timeitemize}
@@ -668,7 +654,7 @@ Sensory Communication Channels} \\
 % ========================================
 % List of References
 % ========================================
-\clearpage
+% \clearpage
 \sectiontitle{List of References}
 
 \begin{timeitemize}{Dr. Yongdae Kim}{}
