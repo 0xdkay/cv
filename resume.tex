@@ -1,0 +1,143 @@
+% Resume for Meta AI Security Positions - Single Page
+% Dongkwan Kim
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.6in]{geometry}
+\usepackage{enumitem}
+% \usepackage{hyperref}
+\usepackage{titlesec}
+% \usepackage{fontawesome5}
+% \usepackage{fontspec}
+\usepackage{fontawesome5}
+\faStyle{regular}
+
+% For pretty color
+\usepackage[hyphens]{url}
+\usepackage{color}
+\definecolor{darkcyan}{cmyk}{0.75,0,0,0}
+\definecolor{highlight}{RGB}{220, 20, 60}     % For key metrics
+\definecolor{accent}{RGB}{0, 100, 0}         % For achievements
+\definecolor{secondary}{RGB}{70, 70, 70}     % For supporting info
+\usepackage[breaklinks,colorlinks,urlcolor=darkcyan]{hyperref}
+\usepackage{xstring}
+
+% Custom commands for consistent formatting
+\newcommand{\metric}[1]{\textcolor{highlight}{#1}}
+\newcommand{\achievement}[1]{\textcolor{accent}{#1}}
+\newcommand{\jobtitle}[1]{\textbf{#1}}
+\newcommand{\location}[1]{\textcolor{secondary}{\small #1}}
+\newcommand{\daterange}[1]{\textcolor{secondary}{\small #1}}
+
+% Compact formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+% \titlespacing*{\section}{0pt}{6pt}{5pt}
+\setlist[itemize]{leftmargin=*,topsep=1pt}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\setlength{\parindent}{0pt}
+\pagestyle{empty}
+
+% \setlist[itemize,1]{label=--}
+% \setlist[itemize,2]{label=•}
+% \setlist[itemize,3]{label=→}
+
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{Dongkwan Kim}} \\[2pt]
+    Cybersecurity Engineer | AI Security \& Red Teaming | Vulnerability Research \\[4pt]
+    \href{mailto:0xdkay@gmail.com}{\faEnvelope\ 0xdkay@gmail.com} \quad
+    \href{https://0xdkay.me}{\faHome\ Homepage} \quad
+    \href{https://scholar.google.com/citations?hl=ko&user=p16UJy8AAAAJ&view_op=list_works&sortby=pubdate}{\faGraduationCap\ Scholar} \quad
+    \href{https://www.linkedin.com/in/0xdkay/}{\faLinkedin\ LinkedIn} \quad
+    \href{https://github.com/0xdkay}{\faGithub\ GitHub} \quad
+    % \href{https://www.facebook.com/0xdkay}{\faFacebook\ Facebook}
+\end{center}
+
+% \begin{itemize}[label={}]
+% \item \textbf{Cybersecurity Engineer}  with 10+ years of experience in vulnerability discovery and threat modeling.
+% \end{itemize}
+\begin{center}
+\textit{Driving full-chain AI security, with a mission to build the next generation of Red Teams.}
+\end{center}
+
+
+% Professional Experience
+\section{Professional Experience}
+\begin{itemize}
+\item \jobtitle{Postdoctoral Fellow}, \location{Georgia Tech | GA, US} \hfill \daterange{Feb. 2025 -- Present}
+    \begin{itemize}[] %label={}]
+    \item DARPA AIxCC Finalist: Designed and implemented LLM-based autonomous fuzzing and exploit agents.
+    % \item Contributing to 20\% of codebase (1500+ commits) in Team Atlanta
+    \item Currently evaluating AI's offensive potential in real-world cybersecurity scenarios.
+    \end{itemize}
+
+\item \jobtitle{Senior Engineer}, \location{Samsung Security Center, Samsung SDS | South Korea} \hfill \daterange{Aug. 2022 -- Dec. 2024}
+    \begin{itemize}[] %label={}]
+    \item Drove Red Team operations across AI systems, IoT devices, Android apps, and kernel-level mitigations.
+        \begin{itemize}[] %label={}]
+        \item Secured 30+ consumer and enterprise products, protecting 1B+ users.
+        \item Delivered executive-level reports and gave organization-wide presentations to 500+ security engineers.
+        \end{itemize}
+    \item Shared insights on AI system security at 6 industry and academic venues.
+        \begin{itemize}[]
+        \item Securing prompt injection chains against remote code execution, impersonation, and sensitive data leak.
+        \end{itemize}
+    \end{itemize}
+
+\item \jobtitle{Graduate \& Postdoctoral Researcher}, \location{KAIST | South Korea} \hfill \daterange{Mar. 2014 -- Jul. 2022}
+    \begin{itemize}[] %label={}]
+    \item Led 8-member research subgroup and conducted security research on emerging systems:
+        \begin{itemize}[]
+        \item Smartphones \& Android: Baseband auth bypass, AOSP privilege escalation, VoLTE exploitation.
+        \item IoT \& Embedded Devices: Variant analysis on 1,100+ firmware, finding 20+ 0-days.
+        \item Cellular Networks: LTE protocol attacks, policy bypass, free data tunneling.
+        \item Drones \& Wearables: Acoustic/EMI attacks, sensor spoofing, wireless analysis.
+        \end{itemize}
+    \item Delivered 27 publications (9 top-tier venues, 1,100+ citations), 7 patents, and 17 funded projects.
+    \item Discovered 100+ bugs in commercial systems, including Android and smartphone baseband 0-days.
+    \end{itemize}
+
+\item \jobtitle{Research Intern}, \location{Pinion Industries | South Korea} \hfill \daterange{Dec. 2013 -- Feb. 2014}
+    \begin{itemize}[] %label={}]
+    \item Analyzed automotive CAN messages and exploited in-vehicle components, achieving RCE and wiretapping.
+    \end{itemize}
+
+\item \jobtitle{Student Senior}, \location{CERT, KAIST | South Korea} \hfill \daterange{Sep. 2010 -- Aug. 2012}
+    \begin{itemize}[] %label={}]
+    \item Led student team in campus-wide security audit, including probing a critical email attack leading to arrest.
+    \end{itemize}
+\end{itemize}
+
+% Education
+\section{Education}
+\begin{itemize}[]
+\item \jobtitle{Ph.D., School of Electrical Engineering}, \location{KAIST | South Korea} \hfill \daterange{Mar. 2016 -- Feb. 2022}
+    \begin{itemize}[] %label={}]
+    \item Advisor: Yongdae Kim
+    \end{itemize}
+\item \jobtitle{M.S., School of Electrical Engineering}, \location{KAIST | South Korea} \hfill \daterange{Mar. 2014 -- Feb. 2016}
+    \begin{itemize}[] %label={}]
+    \item Advisor: Yongdae Kim
+    \end{itemize}
+\item \jobtitle{B.S., Computer Science}, \location{KAIST | South Korea} \hfill \daterange{Mar. 2010 -- Feb. 2014}
+\end{itemize}
+
+% Technical Skills & Domains
+\section{Additional Qualifications}
+\begin{itemize}[itemsep=3pt]
+
+\item \textbf{CTF Player:}
+    5× DEF CON finalist, led 20-person team, organized Samsung CTF, \$115K+ total winnings.
+\item \textbf{Community Contributor:}
+    Delivered 20+ invited talks across academia and industry on emerging threats.
+% \item Offensive Security: Red Team operations, penetration testing, threat modeling, vulnerability research
+% \item Leadership: Cross-functional teams, executive reporting, multi-year roadmaps, CTF organization
+% \item \textbf{AI Frameworks:} Exploit Agents - LangGraph, LangChain, LiteLLM, Phoenix ; Safety guardrail - PyRIT.
+\item \textbf{AI Frameworks:} LangGraph, LangChain, LiteLLM, Phoenix (exploit agents); PyRIT (safety guardrails).
+\item \textbf{Programming Languages:} Python, C/C++, Java, JavaScript.
+\end{itemize}
+
+\end{document}

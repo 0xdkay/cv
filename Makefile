@@ -1,7 +1,9 @@
 MAIN ?= main
+RESUME ?= resume
 
 all:
 	@TEXINPUTS="sty:" bin/latexrun $(MAIN)
+	@TEXINPUTS="sty:" bin/latexrun $(RESUME)
 
 spell:
 	@for i in *.tex; do bin/aspell.sh $$i; done
