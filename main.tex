@@ -54,6 +54,17 @@
 }
 \newcommand{\timeitem}[2]{\item {#1 \hfill {#2} \vspace{0em}}}
 
+\newenvironment{timeenumerate}[3][]
+{
+  \subsectiontitle[#1]{#2}{#3}\vspace{-0.5em}
+  \begin{enumerate}[label={[\arabic*]}, leftmargin=1.5em, topsep=-1pt,itemsep=0pt,parsep=0pt,partopsep=0pt]
+  \small
+}
+{
+  \end{enumerate}
+}
+\newcommand{\timeenumitem}[2]{\item \begin{tabular}[t]{@{}p{0.7\textwidth}@{}r@{}} #1 & \makebox[0.25\textwidth][r]{#2} \end{tabular} \vspace{0em}}
+
 \renewcommand{\subitem}[1]{
 \begin{itemize}[topsep=-1pt,itemsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=1.5em,label=·]
 \item #1
